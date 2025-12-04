@@ -21,4 +21,17 @@ export class Alumno {
     set apellidos(apellidos: string){this._apellidos = apellidos;}
     set fechaNacimiento(fechaNacimiento: Date){this._fechaNacimiento = fechaNacimiento;}
     set direccion(direccion: Direccion){this._direccion = direccion;}
+
+    public getEdad(fechaNacimiento: Date): number {
+        let fechaActual: Date = new Date();
+        let edad: number = fechaActual.getFullYear() - this.fechaNacimiento.getFullYear();
+        return edad;
+    }
+
+    /*
+    public getIniciales(nombre: string, apellidos:string): string {
+
+    }
+    */
+
 }

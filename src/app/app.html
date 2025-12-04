@@ -231,10 +231,12 @@
         </defs>
       </svg>
       <h1>Hello, {{ title() }}</h1>
-      <h2>Direccion {{ direccion.idDireccion }}</h2>
-      Ciudad: <input [(ngModel)]="direccion.ciudad" /><br>
-      Cod Postal: <input [(ngModel)]="direccion.codPostal" /><br>
-      Municipio: <input [(ngModel)]="direccion.municipio" /><br>
+      @for (alumno of getAlumnos(); track alumno) {
+        <h2 class="titulo">
+          {{alumno.nombre}}
+        </h2>
+      }
+      
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">

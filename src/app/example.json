@@ -1,0 +1,122 @@
+[
+  {
+    "alumno": {
+      "dni": "23898963C",
+      "nombre": "Amanda",
+      "apellido": "De La Prida",
+      "fechaNacimiento": "2025-02-04T00:00:00.000Z",
+      "direccion": {
+        "id": 1,
+        "codigoPostal": "41510",
+        "provincia": "Sevilla",
+        "localidad": "Mairena del Alcor",
+        "comunidad": "Sevilla"
+      }
+    },
+    "asignatura": {
+      "nombre": "Diseño",
+      "descripcion": "Diseño de interfaces web",
+      "horas": 180,
+      "profesor": {
+        "dni": "23458963C",
+        "nombre": "Javi",
+        "apellido": "Garcia",
+        "telefono": "568978453",
+        "salario": 1200.23
+      }
+    },
+    "nota1": 10,
+    "nota2": 9,
+    "nota3": 8
+  },
+  {
+    "alumno": {
+      "dni": "23898963C",
+      "nombre": "Amanda",
+      "apellido": "De La Prida",
+      "fechaNacimiento": "2025-02-04T00:00:00.000Z",
+      "direccion": {
+        "id": 1,
+        "codigoPostal": "41510",
+        "provincia": "Sevilla",
+        "localidad": "Mairena del Alcor",
+        "comunidad": "Sevilla"
+      }
+    },
+    "asignatura": {
+      "nombre": "Proyecto",
+      "descripcion": "Proyecto intermodular",
+      "horas": 50,
+      "profesor": {
+        "dni": "78352463C",
+        "nombre": "Vladi",
+        "apellido": "Rico",
+        "telefono": "568965723",
+        "salario": 2000.98
+      }
+    },
+    "nota1": 7,
+    "nota2": 5,
+    "nota3": 3
+  },
+  {
+    "alumno": {
+      "dni": "23458123C",
+      "nombre": "Maria",
+      "apellido": "Jimenez",
+      "fechaNacimiento": "2025-02-04T00:00:00.000Z",
+      "direccion": {
+        "id": 2,
+        "codigoPostal": "41510",
+        "provincia": "Cadiz",
+        "localidad": "Rota",
+        "comunidad": "Cadiz"
+      }
+    },
+    "asignatura": {
+      "nombre": "Diseño",
+      "descripcion": "Diseño de interfaces web",
+      "horas": 180,
+      "profesor": {
+        "dni": "23458963C",
+        "nombre": "Javi",
+        "apellido": "Garcia",
+        "telefono": "568978453",
+        "salario": 1200.23
+      }
+    },
+    "nota1": 6,
+    "nota2": 2,
+    "nota3": 7
+  },
+  {
+    "alumno": {
+      "dni": "23458123C",
+      "nombre": "Maria",
+      "apellido": "Jimenez",
+      "fechaNacimiento": "2025-02-04T00:00:00.000Z",
+      "direccion": {
+        "id": 2,
+        "codigoPostal": "41510",
+        "provincia": "Cadiz",
+        "localidad": "Rota",
+        "comunidad": "Cadiz"
+      }
+    },
+    "asignatura": {
+      "nombre": "Proyecto",
+      "descripcion": "Proyecto intermodular",
+      "horas": 50,
+      "profesor": {
+        "dni": "78352463C",
+        "nombre": "Vladi",
+        "apellido": "Rico",
+        "telefono": "568965723",
+        "salario": 2000.98
+      }
+    },
+    "nota1": 10,
+    "nota2": 6,
+    "nota3": 8
+  }
+]
