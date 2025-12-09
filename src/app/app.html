@@ -227,14 +227,39 @@
             <stop offset=".526" stop-color="#CC26D5" />
             <stop offset="1" stop-color="#7702FF" />
           </linearGradient>
+          
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
       <h1>Hello, {{ title() }}</h1>
-      @for (alumno of getAlumnos(); track alumno) {
-        <h2 class="titulo">
-          {{alumno.nombre}}
-        </h2>
+      @for(alumno of getAlumnos(); track alumno){
+        <div class="caja">
+          <h2 class="titulo">
+            {{alumno.nombre}}
+            <img class="imagen" src="https://cdn-icons-png.flaticon.com/512/6676/6676023.png"/>
+          </h2>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Asignatura</th>
+                <th>Descripcion Asig.</th>
+                <th>Num. horas</th>
+                <th>Profesor imparte</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for(item of getMatriculaByAlumno(alumno1.dni); track item){
+                <tr>
+                  <td>{{item.asignatura.nombre}}</td>
+                  <td>{{item.asignatura.descripcion}}</td>
+                  <td>{{item.asignatura.numHoras}}</td>
+                  <td>{{item.asignatura.profesor.nombre}}</td>
+                </tr>
+              }
+              <td></td>
+            </tbody>
+          </table>
+        </div>
       }
       
     </div>
